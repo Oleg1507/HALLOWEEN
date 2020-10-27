@@ -1,0 +1,64 @@
+html {
+  background-image: url('2.png');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style: none;
+  background-color: #FF6600;
+}
+nav > ul > li {
+  float: left;
+  border-right: 1px solid #ff3300;
+}
+nav ul::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  width: 125px;
+  text-transform: uppercase;
+  font-family: Comic Sans MS;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: #993300;
+  color: #ff9900;
+  box-shadow: 1px 5px 10px -5px #ff3300;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+nav ul li:hover ul {
+  display: block;
+}
+
+li > ul li {
+  border:0.5px solid #ff3300;
+}
+img {
+  border-radius: 15%;
+  border-color: gold;
+}
+a {
+  color: #ffcc00;
+  font-family: Calibri Light;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h1  {
+  color: #ffcc66;
+  font-family: Calibri Light;
+}
+p {
+  color: #ff3300;
+  font-family: Comic Sans MS;
+}
