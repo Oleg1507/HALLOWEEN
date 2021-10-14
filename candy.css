@@ -145,6 +145,16 @@ h2 {
   top: 230px;
   left: -1015px;
 }
+.yogurt {
+  position: relative;
+  top: 1550px;
+  left: -230px;
+}
+.yogurt1 {
+  position: relative;
+  top: 250px;
+  left: -500px;
+}
 .end {
   position: relative;
   left: 300px;
